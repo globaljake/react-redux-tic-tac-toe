@@ -75,7 +75,6 @@ class GameBoard extends Component {
                   noLeft={col === '1'}
                   noBottom={row === 'c'}
                   noRight={col === '3'}
-
                   onClick={() => !winningMatch && this.selectSlot(slotId)}
                 >
                   {
