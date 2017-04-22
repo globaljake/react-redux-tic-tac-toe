@@ -1,0 +1,8 @@
+{
+  "presets": [
+    "env",
+    "react",
+    "react-hmre",
+    "stage-2"
+  ]
+}

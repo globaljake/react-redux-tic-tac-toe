@@ -1,0 +1,20 @@
+{
+  "extends": "airbnb",
+  "parser": "babel-eslint",
+  "env": {
+    "browser": true,
+    "node": true,
+  },
+  "globals": {
+    "require": true,
+  },
+  "rules": {
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "arrow-parens": 0,
+    "import/prefer-default-export": 0,
+    "class-methods-use-this": 0,
+    "arrow-body-style": 0,
+    "react/forbid-prop-types": 0,
+    "no-case-declarations": 0,
+  }
+}
